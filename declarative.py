@@ -7,9 +7,9 @@ from sqlalchemy import ForeignKey
 from sqlalchemy.orm import relationship
 
 
+DB_NAME = "sqlite3.db"
 DB_DIALECT = "sqlite:///"
 DB_DIR = os.getcwd() + "/db/"
-DB_NAME = "sqlite3.db"
 ECHO = True
 
 Base = declarative_base()

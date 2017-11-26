@@ -1,8 +1,8 @@
 #!/bin/bash
 
 SENSOR_USER="pi"
-SENSOR_IP="192.168.1.122"
-SENSOR_PORT=8444
+SENSOR_IP="192.168.1.1"
+SENSOR_PORT=22
 SENSOR_LOG_DIR="/home/cowrie/cowrie/log/"
 
 # Use scp to copy the json logs from the sensor and store it to the
